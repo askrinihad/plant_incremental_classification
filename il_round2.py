@@ -11,7 +11,7 @@ from sklearn.model_selection import train_test_split
 import shutil
 
 # Paths
-JSON_FILE_PATH = "oxford_103_plantclef_features.json"  # Path to the existing JSON file
+JSON_FILE_PATH = "oxford_206_plantclef_features.json"  # Path to the existing JSON file
 METRICS_FILE_PATH = "metrics_of_sub_plantclef.json"
 FINE_TUNED_MODEL_PATH = "finetuned_clip_vit_l14_species_classifier_20E.pth"
 #ORIGINAL_TRAIN_DIR = "sub_training"  # Path to your new dataset containing additional species
