@@ -14,7 +14,7 @@ import shutil
 JSON_FILE_PATH = "oxford_103_plantclef_features.json"  # Path to the existing JSON file
 METRICS_FILE_PATH = "metrics_of_sub_plantclef.json"
 FINE_TUNED_MODEL_PATH = "finetuned_clip_vit_l14_species_classifier_20E.pth"
-ORIGINAL_TRAIN_DIR = "sub_training"  # Path to your new dataset containing additional species
+#ORIGINAL_TRAIN_DIR = "sub_training"  # Path to your new dataset containing additional species
 TRAIN_DIR_NEW = "split_dataset/train"
 TEST_DIR_NEW = "split_dataset/test"
 
@@ -54,7 +54,7 @@ def split_dataset_randomly(original_train_dir, train_dir, test_dir, train_ratio=
     print(f"Training data in '{train_dir}', Testing data in '{test_dir}'.")
 
 # Split the dataset into training and testing
-split_dataset_randomly(ORIGINAL_TRAIN_DIR, TRAIN_DIR_NEW, TEST_DIR_NEW, train_ratio=0.8)
+#split_dataset_randomly(ORIGINAL_TRAIN_DIR, TRAIN_DIR_NEW, TEST_DIR_NEW, train_ratio=0.8)
 
 # Incremental Learner Class
 class IncrementalLearner:
